@@ -3,9 +3,9 @@ def hello():
 
 
 def main():
-    hello()  # Call the hello function so it actually runs
+    hello()  # Call the hello function so it runs
 
 
-# This line means: only run main() if this file is being run directly
+# This line means; only run main() if this file is being run directly
 if __name__ == "__main__":
     main()

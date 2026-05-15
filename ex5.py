@@ -1,7 +1,7 @@
 # A program that tells the user how many days are in a chosen month
 
 # Dictionary mapping each month number to the number of days
-# February is set to 28 by default — we deal with leap years later
+# February is set to 28 by default — will deal with leap years later
 days_in_month = {
     1: 31,   # January
     2: 28,   # February

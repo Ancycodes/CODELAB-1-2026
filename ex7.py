@@ -1,4 +1,4 @@
-# Python's range(start, stop, step) — stop is NOT included, so we go one past
+# Python's range(start, stop, step)
 
 # 1) Count up from 0 to 50 in steps of 1
 print("Counting up 0 to 50:")
@@ -6,7 +6,7 @@ for i in range(0, 51, 1):
     print(i)
 
 # 2) Count down from 50 to 0 in steps of 1
-# Negative step makes the loop go backwards
+# Negative step makes it  go backwards
 print("Counting down 50 to 0:")
 for i in range(50, -1, -1):
     print(i)

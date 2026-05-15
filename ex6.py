@@ -1,7 +1,7 @@
 # The correct password the user has to guess
 correct_password = "12345"
 
-# We give the user a maximum of 5 tries
+# user gets maximum of five tries
 max_attempts = 5
 attempts = 0
 
@@ -17,11 +17,11 @@ while attempts < max_attempts:
     else:
         # Count this failed attempt
         attempts += 1
-        # Work out how many tries are left
+        # Work out how many attempts are left
         remaining = max_attempts - attempts
 
         if remaining > 0:
             print(f"Wrong password. You have {remaining} attempts left.")
         else:
-            # No tries left — pretend we've alerted the authorities
+            # No tries left, pretend we've alerted the authorities
             print("Maximum attempts reached. The authorities have been alerted!")

@@ -1,6 +1,6 @@
 # This function takes in a number and returns a message
 def check_even_or_odd(number):
-    # The % (modulo) operator gives the remainder after dividing
+    # The % operator gives the remainder after dividing
     # If a number divided by 2 has no remainder, it's even
     if number % 2 == 0:
         return f"{number} is even."
@@ -9,7 +9,7 @@ def check_even_or_odd(number):
 
 
 def main():
-    # Ask the user for a number and convert it from text to an integer
+    # Asks the user for a number and convert it from text to an integer
     user_number = int(input("Enter a whole number: "))
 
     # Pass the number to the function and store the message it returns
@@ -19,6 +19,6 @@ def main():
     print(message)
 
 
-# Standard Python way of starting the program
+# Standard way of starting the program
 if __name__ == "__main__":
     main()
